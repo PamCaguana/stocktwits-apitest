@@ -1,0 +1,122 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+html{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 62.5%;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1{
+  text-align: center;
+  color: black;
+  font-size: 3rem;
+  font-style: bold;
+  margin: 10px auto;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(228, 225, 225);
+}
+
+h2{
+  font-size: 2rem;
+  font-weight: bold;
+}
+h3{
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+#currentCount{
+  padding-left: 5px;
+}
+
+#heading{
+  text-align: center;
+}
+
+input{
+  margin: 10px auto;
+  position: relative;
+}
+
+button{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  height: 35px;
+  width: 70px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: rgb(58,133,251);
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+#mainContent{
+  padding: 10px;
+}
+
+span{
+  display: block;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+p{
+  padding: 10px 0;
+  font-size: 1.5rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/*
+@media (min-width: 431px) and (max-width: 700px){
+  #horoscopeBox{
+    width: 85vw;
+    height: 560px;
+  }
+  .alwaysVisible{
+    width: 85vw;
+  }
+  
+}
+@media only screen and (max-width: 430px) {
+  #horoscopeBox{
+    width: 96vw;
+    height: 635px;
+  }
+  .alwaysVisible{
+    width: 96vw;
+    height: 110px;
+  }
+  h1{
+    font-size: 3.5rem;
+  }
+  
+} */
